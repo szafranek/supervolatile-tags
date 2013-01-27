@@ -1,0 +1,472 @@
+design|technology
+nexusone|technology
+google|business
+psychology|science
+work|business
+games|culture
+atheism|science
+programming|technology
+webdevelopment|technology
+education|science
+software|technology
+estimation|technology
+software development|technology
+ecology|science
+economy|science
+html|technology
+english|culture
+writing|culture
+usability|technology
+movies|culture
+story|culture
+api|technology
+flash|technology
+music|culture
+lifehacks|culture
+microsoft|business
+javascript|technology
+css|technology
+books|culture
+future telling|technology
+kindle|technology
+clients|business
+Bill Gates|people
+dating|science
+germany|places
+reading|culture
+management|business
+hardware|technology
+firefox|technology
+html5|technology
+open source|technology
+standards|technology
+facebook|business
+scripting|technology
+productivity|business
+apple|business
+ ipad|technology
+freelance|business
+unicode|technology
+webstandards|technology
+adobe|business
+ruby|technology
+version control|technology
+ie|technology
+amazon|business
+ebooks|culture
+animation|culture
+podcast|technology
+interviews|science
+addiction|science
+internet|technology
+politics|culture
+php|technology
+usa|places
+fallout|culture
+agile|technology
+zeldman|people
+processors|technology
+science|science
+nokia|business
+webkit|technology
+diablo|culture
+iphone|technology
+buzz|technology
+colbert|people
+learning|science
+social media|culture
+privacy|technology
+performance|technology
+ted|science
+business|business
+bing|technology
+maps|technology
+mobile|technology
+statistics|science
+visualization|science
+sociology|science
+windows|technology
+location services|technology
+webdesign|technology
+posterous|business
+startups|business
+medicine|science
+New York|places
+workplace|business
+dotcom era|business
+pixar|business
+captain obvious|technology
+scott adams|people
+online advertising|business
+rss|technology
+java|technology
+test driven development|technology
+Joel on Software classics|technology
+expertise|business
+user interface|technology
+i18n|technology
+philosophy|science
+processes|business
+joel spolsky|people
+windows mobile|technology
+regular expressions|technology
+validation|technology
+interoperability|technology
+censorship|culture
+opera|technology
+database|technology
+scalability|technology
+steve jobs|people
+photoshop|technology
+marketing|business
+women|culture
+math|science
+bootstrapping|business
+linux|technology
+online reputation|technology
+content strategy|technology
+publishing|culture
+google chrome|technology
+aws|technology
+chemistry|science
+architecture|culture
+relationships|culture
+health|science
+copyright|culture
+ethics|culture
+star wars|culture
+typography|culture
+mac os|technology
+ruby on rails|technology
+food|culture
+religion|science
+video|culture
+apache|technology
+security|technology
+perl|technology
+innovation|technology
+steve wozniak|people
+presentations|technology
+poland|places
+python|technology
+hiring|business
+islam|science
+nerds|culture
+patents|technology
+comics|culture
+intelligence|science
+physics|science
+jargon|business
+artificial intelligence|science
+smoking|culture
+national security|culture
+terrorism|culture
+oracle|business
+sun|business
+git|technology
+finland|places
+sports|culture
+android|technology
+mac|technology
+languages|culture
+yahoo|business
+berlin|places
+unbearable lightness of being|culture
+steve ballmer|people
+creativity|culture
+energy|science
+computer science|technology
+environment|science
+nature|science
+twitter|business
+c|technology
+science fiction|culture
+north korea|places
+blogging|culture
+afghanistan|places
+history|science
+immigration|culture
+press|culture
+biology|science
+search|technology
+lifestyle|culture
+silicon valley|places
+amiga|technology
+humour|culture
+paypal|business
+self help|science
+youtube|technology
+diaspora|technology
+singularity|science
+postmodernism|culture
+china|places
+celebrities|people
+cloud|technology
+web traffic|technology
+journalism|culture
+culture|culture
+mercurial|technology
+art|culture
+graphic design|culture
+UX|technology
+web applications|technology
+family|culture
+blackberry|technology
+bash|technology
+tools|technology
+content distribution|technology
+regulation|business
+banking|business
+Russia|places
+google buzz|technology
+unix|technology
+macintosh|technology
+gender|culture
+communities|culture
+taxonomies|culture
+nosql|technology
+windows phone|technology
+server-side|technology
+manipulation|science
+internet apocalypse|technology
+techcrunch|technology
+PlayBook|technology
+tablets|technology
+aol|business
+free culture|culture
+toys|technology
+build tools|technology
+free software|technology
+richard stallman|people
+visual identity|culture
+cognition|science
+tech press|technology
+skynet|technology
+recruiting|business
+silverlight|technology
+app store|technology
+ecommerce|business
+astronomy|science
+offshoring|business
+algorithms|technology
+scala|technology
+DRM|technology
+corporations|business
+network|technology
+mozilla|technology
+openID|technology
+money|business
+quora|technology
+minimalism|culture
+networking|business
+boredom|culture
+critique|culture
+useless science trivia|science
+jquery|technology
+cat pictures|culture
+creationism|science
+wikipedia|culture
+stack overflow|technology
+timothy ferriss|people
+node.js|technology
+motivation|business
+alcoholism|science
+hacker news|technology
+india|places
+outsourcing|business
+batman|culture
+itunes|technology
+drawing|culture
+meetings|business
+web analytics|technology
+stuff white people like|culture
+identity|culture
+direct3d|technology
+john carmack|people
+opengl|technology
+nuclear weapons|science
+war|culture
+zfs|technology
+space exploration|science
+reddit|technology
+Paul Allen|people
+dropbox|technology
+content management|technology
+made in china|technology
+engineering|technology
+ayn rand|people
+paul graham|people
+huffington post|culture
+online publishing|technology
+spdy|technology
+accessiblity|technology
+sony|business
+hp|business
+webos|technology
+wiki leaks|culture
+.net|technology
+linkedin|business
+barnes &amp; noble|business
+nook|technology
+browsers|technology
+ios|technology
+art direction|culture
+icloud|technology
+europe|places
+accenture|business
+erlang|technology
+webgl|technology
+information overload|culture
+google+|technology
+e-commerce|business
+continous integration|technology
+skype|technology
+stock options|business
+debt crisis|business
+punctuation|culture
+game development|technology
+software architecture|technology
+citizen society|culture
+corruption|business
+photography|culture
+w3c|technology
+entrepreneurship|business
+lisp|technology
+buzzwords|business
+hosting|technology
+tim cook|people
+github|business
+intel|business
+africa|places
+famine|business
+id software|business
+fomo|culture
+richard feynman|people
+anti-intellectualism|culture
+google plus|technology
+siri|technology
+platforms|technology
+soa|technology
+singles|culture
+c|technology
+accidents|science
+dart|technology
+children|culture
+parenthood|culture
+public speaking|business
+jeff bezos|people
+why is steve jobs more famous|business
+google reader|technology
+microprocessors|technology
+liberal|culture
+meritocracy|business
+diy|technology
+zynga|business
+piracy|technology
+switzerland|places
+communication|culture
+Christopher Hitchens|people
+happiness|culture
+sopa|technology
+mid life crisis|culture
+christmas|culture
+responsive design|technology
+freedom|culture
+Eastern Europe|places
+japan|places
+lumia|technology
+tdd|technology
+leadership|business
+short stories|culture
+os x|technology
+bureaucracy|business
+coca-cola|business
+37signals|business
+wooga|business
+modafinil|science
+objective-c|technology
+scepticism|science
+Neil deGrasse Tyson|people
+Jonathan Ive|people
+italy|places
+kurt vonnegut|people
+programmers|technology
+instagram|technology
+Linus Torvalds|people
+valve|business
+darpa|science
+flight|science
+military|technology
+death|culture
+couchdb|technology
+airplanes|technology
+literature|culture
+william gibson|people
+youth|culture
+conferences|technology
+obesity|science
+infographics|culture
+cars|technology
+technology|technology
+c++|technology
+fatherhood|culture
+men|culture
+olympics|culture
+sparrow|technology
+marissa mayer|people
+joyent|business
+textdrive|business
+branding|culture
+cybersports|culture
+starcraft|culture
+pinboard|technology
+postmortem|technology
+wagner|culture
+biotechnology|science
+game design|culture
+pornography|culture
+neil armstrong|people
+samsung|business
+scrum|technology
+media|culture
+yakuza|culture
+robots|science
+apps|technology
+aging|culture
+sex|culture
+spotify|business
+social games|technology
+blizzard|business
+hollywood|culture
+internationalization|technology
+pandora|culture
+alan turing|people
+brain computer interface|science
+glass|technology
+wealth|culture
+windows 8|technology
+microsoft surface|technology
+Spain|places
+abortion|culture
+Ireland|places
+job market|business
+kickstarter|business
+ronald reagan|people
+feminism|culture
+france|places
+UK|places
+Ray Kurzweil|people
+hipsters|culture
+tv|culture
+qualcomm|business
+lgbt|culture
+aaron swartz|people
+homosexuality|culture
+oculus rift|technology
+virtual reality|technology
+fitness|culture
+diversity|culture
+tolkien|people
+Lord of the Rings|culture
+mega|technology
+Chernobyl|places

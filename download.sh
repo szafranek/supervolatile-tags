@@ -1,0 +1,1 @@
+for i in {1..100}; do curl -X GET --user USERNAME:PASSWORD -d "api_token=TOKEN" -d "site_id=SITE_ID" -d "page=$i" -o data/$i.json "http://posterous.com/api/2/sites/SITE_ID/posts/public"; sleep 5; done

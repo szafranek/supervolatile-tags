@@ -1,0 +1,277 @@
+/* =reset
+-----------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* =general
+-----------------------------*/
+
+@font-face {
+    font-family: 'HattoriHanzoLight';
+    src: url('../fonts/hattori_hanzo-webfont.eot');
+    src: url('../fonts/hattori_hanzo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hattori_hanzo-webfont.woff') format('woff'),
+         url('../fonts/hattori_hanzo-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    font-family: 'HattoriHanzoLight', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+    background: url(../i/noise.png);
+}
+a {
+    text-decoration: none;
+}
+/* =calendar
+-----------------------------*/
+.calendar-container {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 180px;
+    background: url(../i/noise.png);
+}
+table.calendar {
+    margin-left: 180px;
+    margin-top: 30px;
+    position: fixed;
+    z-index: 1000;
+    border-collapse: collapse;
+}
+table.calendar th {
+    line-height: 30px;
+    border-left: 1px solid #c7c9be;
+}
+table.calendar th div {
+    display: block;
+    width: 26px;
+    font-size: 16px;
+    color: #5d5d5d;
+    padding-left: 3px;
+    text-align: left;
+}
+table.calendar .months div {
+    font-size: 12px;
+    line-height: 30px;
+    color: #939393;
+    padding-left: 3px;
+}
+table.calendar td {
+    width: 30px;
+}
+table.calendar td.Jan {
+    border-left: 1px solid #c7c9be;
+    width: 29px;
+}
+table.calendar .posts td {
+    vertical-align: bottom;
+    height: 90px;
+}
+table.calendar .posts div {
+    text-indent: -9999px;
+    background-color: #c7c9be;
+    border-right: 1px solid #fff;
+}
+/* =toggle
+-----------------------------*/
+.toggle {
+    position: absolute;
+    bottom: -3px;
+    left: 5px;
+}
+.toggle input {
+    margin-right: 10px;
+}
+/* =main table
+-----------------------------*/
+table.main {
+    z-index: 100;
+    border-collapse: collapse;
+    position: absolute;
+    top: 180px;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-bottom: 60px;
+}
+table.main td {
+    width: 30px;
+    font-size: 14px;
+    line-height: 27px;
+    vertical-align: bottom;
+    padding-bottom: 3px;
+}
+table.main td.expander,
+table.main td.count,
+table.main td.name {
+    padding-bottom: 0;
+    line-height: 14px;
+    height: 20px;
+}
+table.main td.expander {
+    color: #0d1f2d;
+    font-size: 10px;
+    width: 20px;
+    cursor: pointer;
+}
+table.main td.expander div {
+    position: relative;
+}
+table.main td.expander .collapse {
+    display: none;
+}
+table.main td.expander .collapse {
+    display: none;
+}
+table.main td.expander.collapser .collapse {
+    display: inline;
+}
+table.main td.expander.collapser .expand {
+    display: none;
+}
+table.main td.count {
+    text-align: right;
+    width: 24px;
+    padding-right: 6px;
+    color: #929487;
+    text-align: right;
+}
+table.main td.name {
+    width: 120px;
+}
+table.main td.name div {
+    overflow: hidden;
+    width: 110px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: lowercase;
+
+}
+table.main tr.metatag td.count,
+table.main tr.metatag td.name {
+    font-variant: small-caps;
+    height: 60px;
+    vertical-align: bottom;
+    color: #5d5d5d;
+}
+table.main tr.metatag td.name:hover {
+    transition-property: color;
+    transition-duration: 1s;
+    color: #000;
+    cursor: pointer;
+}
+table.main tr.tag {
+    display: none;
+}
+table.main tr.tag td.name {
+    padding-left: 20px;
+}
+table.main .posts {
+    position: relative;
+    padding-top: 7px;
+}
+table.main .shortcuts {
+    text-indent: -9999px;
+    height: 0;
+    position: relative;
+    width: 29px;
+    border-right: 1px solid #fff;
+}
+table.main tr.tag:nth-child(2n) {
+    background-color: #f9faf5;
+}
+/* =tag groups
+-----------------------------*/
+tr.technology .shortcuts {
+    background-color: #39b3e6;
+}
+tr.business .shortcuts {
+    background-color: #95cb15;
+}
+tr.culture .shortcuts {
+    background-color: #ebb400;
+}
+tr.science .shortcuts {
+    background-color: #f7610a;
+}
+tr.people .shortcuts {
+    background-color: #d70060;
+}
+tr.places .shortcuts {
+    background-color: #810af7;
+}
+/* =popup
+-----------------------------*/
+table.main .posts:hover {
+    cursor: pointer;
+}
+table.main .posts:hover .popup {
+    display: block;
+    z-index: 100;
+}
+.popup {
+    position: absolute;
+    top: 7px;
+    left: 14px;
+    width: 207px;
+    padding: 7px 10px 0;
+    background-color: #f0f0f0;
+    border-left: 1px solid #828282;
+    display: none;
+}
+.popup li {
+    margin-bottom: 7px;
+}
+.popup a {
+    display: block;
+    color: #616161;
+    line-height: 16px;
+    transition-property: color;
+    transition-duration: 1s;
+}
+.popup a:hover {
+    color: #000;
+}
