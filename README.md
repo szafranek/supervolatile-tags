@@ -1,7 +1,7 @@
 # supervolatile-tags
 
 Visualization of my link blog [supervolatile.com](http://supervolatile.com).
-Read [the story behind](http://szafranek.net).
+Read [the story behind](http://szafranek.net/blog/2013/01/28/link-blog-visualized/).
 
 ## Disclaimer & License
 
