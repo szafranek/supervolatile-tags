@@ -3,7 +3,7 @@
 (function() {
     "use strict";
 
-    window.Supervolatile = {};
+    var groupedRowsFragment, ungroupedRowsFragment;
 
     function setHeaderHeight() {
         var calendarHeight = $(".calendar").outerHeight(true);
@@ -48,7 +48,7 @@
         for (i = 0, l = allRows.length; i < l; i++) {
             tagsWithMetatags.appendChild(allRows[i].cloneNode(true));
         }
-        window.Supervolatile.groupedRowsFragment = tagsWithMetatags;
+        groupedRowsFragment = tagsWithMetatags;
 
 
         var tagRows = document.querySelectorAll("table.main tbody tr.tag");
@@ -63,7 +63,7 @@
             clone.style.display = "table-row";
             tagsOnly.appendChild(clone);
         });
-        window.Supervolatile.ungroupedRowsFragment = tagsOnly;
+        ungroupedRowsFragment = tagsOnly;
     }
 
     function toggleGrouping() {
@@ -73,9 +73,9 @@
             var tbody = document.querySelector("table.main tbody");
             tbody.innerHTML = "";
             if (!$(this).attr("checked")) {
-                tbody.appendChild(window.Supervolatile.ungroupedRowsFragment.cloneNode(true));
+                tbody.appendChild(ungroupedRowsFragment.cloneNode(true));
             } else {
-                tbody.appendChild(window.Supervolatile.groupedRowsFragment.cloneNode(true));
+                tbody.appendChild(groupedRowsFragment.cloneNode(true));
             }
         });
     }
